@@ -12,6 +12,9 @@
 		184303D7225414B0000574EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184303D5225414B0000574EC /* Main.storyboard */; };
 		184303D9225414B2000574EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184303D8225414B2000574EC /* Assets.xcassets */; };
 		184303DC225414B2000574EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184303DA225414B2000574EC /* LaunchScreen.storyboard */; };
+		184303E42254165D000574EC /* QuoteFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184303E32254165D000574EC /* QuoteFetcher.swift */; };
+		184303E622541793000574EC /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184303E522541793000574EC /* Quote.swift */; };
+		184303E822541B0E000574EC /* QuoteDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184303E722541B0E000574EC /* QuoteDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		184303D8225414B2000574EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		184303DB225414B2000574EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		184303DD225414B2000574EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184303E32254165D000574EC /* QuoteFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteFetcher.swift; sourceTree = "<group>"; };
+		184303E522541793000574EC /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		184303E722541B0E000574EC /* QuoteDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				184303D1225414B0000574EC /* AppDelegate.swift */,
 				184303D3225414B0000574EC /* ViewController.swift */,
 				184303D5225414B0000574EC /* Main.storyboard */,
+				184303E32254165D000574EC /* QuoteFetcher.swift */,
+				184303E722541B0E000574EC /* QuoteDelegate.swift */,
+				184303E522541793000574EC /* Quote.swift */,
 				184303D8225414B2000574EC /* Assets.xcassets */,
 				184303DA225414B2000574EC /* LaunchScreen.storyboard */,
 				184303DD225414B2000574EC /* Info.plist */,
@@ -135,7 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184303E822541B0E000574EC /* QuoteDelegate.swift in Sources */,
+				184303E622541793000574EC /* Quote.swift in Sources */,
 				184303D4225414B0000574EC /* ViewController.swift in Sources */,
+				184303E42254165D000574EC /* QuoteFetcher.swift in Sources */,
 				184303D2225414B0000574EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,7 +303,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Guled-Ali.Quotes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,7 +321,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Guled-Ali.Quotes";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
